@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aspiring Python Full Stack Developer skilled in HTML, CSS, JavaScript, Python, Django, SQL, and AI chatbot development. Explore projects and portfolio.">
+    <meta name="keywords" content="Vaishnavi, Personal Portfolio, Portfolio Website, Python Full Stack Developer">
+    <meta name="author" content="Vaishnavi">
+    <title>Vaishnavi | Python Full Stack Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./logo1.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Remixicons CDN for modern icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Custom JS (Deferred) -->
+    <script defer src="script.js"></script>
+</head>
+<body id="top">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <span class="loader-logo">V</span>
+            <div class="loader-ring"></div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="nav-container container">
+            <a href="#top" class="logo">Vaishnavi</a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" aria-label="Toggle Navigation" id="nav-toggle-btn">
+                <i class="ri-menu-3-line"></i>
+            </button>
+            
+            <nav class="nav-menu" id="nav-menu-bar">
+                <ul class="nav-list">
+                    <li><a href="#abtme" class="nav-link active-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#goals" class="nav-link">Goals</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li>
+                        <a href="./Vaishnavi_Resume.pdf" target="_blank" download="Vaishnavi_Resume.pdf" class="btn btn-outline nav-btn">
+                            <i class="ri-download-line"></i> Resume
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-container container grid-2">
+                <!-- Left: Profile Photo (Replicating Friend's Layout) -->
+                <div class="hero-profile-container scroll-reveal">
+                    <div class="hero-profile-ring">
+                        <div class="hero-profile-glow-circle"></div>
+                        <img src="./profile.jpg" alt="Vaishnavi" class="hero-profile-circle-img">
+                        <div class="hero-profile-status-dot"></div>
+                    </div>
+                    <div class="hero-profile-greeting">👋 Hi, I am Vaishnavi</div>
+                    <div class="hero-profile-typing">I am a <span id="typing-role"></span><span class="typing-cursor">|</span></div>
+                    <p class="hero-profile-tagline">Building responsive, clean, and efficient web applications from front to back.</p>
+                </div>
+                
+                <!-- Right: Mock Code Editor (Replicating Friend's Layout) -->
+                <div class="hero-content scroll-reveal delay-200">
+                    <div class="code-editor-panel">
+                        <div class="editor-header">
+                            <div class="editor-actions-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <span class="editor-title">about_vaishnavi.js</span>
+                        </div>
+                        <div class="editor-body-grid">
+                            <div class="line-numbers-col">
+                                <span>1</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>4</span>
+                                <span>5</span>
+                                <span>6</span>
+                                <span>7</span>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                                <span>11</span>
+                                <span>12</span>
+                                <span>13</span>
+                            </div>
+                            <div class="code-content-col">
+                                <div class="code-line"><span class="code-comment">// Hello World! Welcome to my portfolio</span></div>
+                                <div class="code-line"></div>
+                                <div class="code-line"><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {</div>
+                                <div class="code-line">    <span class="code-key">name</span>: <span class="code-str">"Vaishnavi M"</span>,</div>
+                                <div class="code-line">    <span class="code-key">role</span>: <span class="code-str">"Python Full Stack Developer"</span>,</div>
+                                <div class="code-line">    <span class="code-key">location</span>: <span class="code-str">"Bengaluru, India"</span>,</div>
+                                <div class="code-line">    <span class="code-key">skills</span>: [</div>
+                                <div class="code-line">        <span class="code-str">"Python"</span>, <span class="code-str">"Django"</span>, <span class="code-str">"SQL"</span>,</div>
+                                <div class="code-line">        <span class="code-str">"JS"</span>, <span class="code-str">"HTML"</span>, <span class="code-str">"CSS"</span></div>
+                                <div class="code-line">    ],</div>
+                                <div class="code-line">    <span class="code-key">passion</span>: <span class="code-str">"Problem Solving"</span>,</div>
+                                <div class="code-line">    <span class="code-key">motto</span>: <span class="code-str">"Code. Create. Innovate."</span></div>
+                                <div class="code-line">};</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section section" id="abtme">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">About Me</h2>
+                <div class="about-card glass-card scroll-reveal delay-200">
+                    <div class="about-icon-container">
+                        <i class="ri-code-box-line about-card-icon"></i>
+                    </div>
+                    <p class="about-description">
+                        Hello! I'm a <strong>Python Full Stack Web Developer</strong> with a passion for building clean, user-friendly interfaces and robust backend systems. I specialize in turning complex problems into elegant, responsive web applications.
+                    </p>
+                    <p class="about-description">
+                        With hands-on experience in <strong>HTML, CSS, JavaScript, Python, Django, and SQL</strong>, I work comfortably across the entire development stack. I am dedicated to writing clean, maintainable code and continuously expanding my technical skills to leverage modern technologies.
+                    </p>
+                    <div class="about-badge-row">
+                        <span class="about-badge"><i class="ri-code-line"></i> Full Stack Development</span>
+                        <span class="about-badge"><i class="ri-settings-4-line"></i> Backend Engineering</span>
+                        <span class="about-badge"><i class="ri-database-2-line"></i> Database Systems</span>
+                        <span class="about-badge"><i class="ri-braces-line"></i> UI/UX Focus</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section section" id="skills">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Skills</h2>
+                <div class="skills-grid grid-4 scroll-reveal delay-200">
+                    
+                    <!-- Frontend Card -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box skill-fe">
+                            <i class="ri-html5-line"></i>
+                        </div>
+                        <h3 class="skill-category">Frontend</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar fe-bar" style="width: 90%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">CSS3</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar fe-bar" style="width: 85%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar fe-bar" style="width: 80%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Tailwind CSS</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar fe-bar" style="width: 75%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Bootstrap</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar fe-bar" style="width: 80%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">React</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar fe-bar" style="width: 70%;"></span></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Backend Card -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box skill-be">
+                            <i class="ri-server-line"></i>
+                        </div>
+                        <h3 class="skill-category">Backend</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">Python</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar be-bar" style="width: 90%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Django</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar be-bar" style="width: 85%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">REST APIs</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar be-bar" style="width: 80%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Flask</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar be-bar" style="width: 70%;"></span></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Database Card -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box skill-db">
+                            <i class="ri-database-line"></i>
+                        </div>
+                        <h3 class="skill-category">Database</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar db-bar" style="width: 85%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">PostgreSQL</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar db-bar" style="width: 75%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">SQLite</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar db-bar" style="width: 80%;"></span></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools Card -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon-box skill-tools">
+                            <i class="ri-git-merge-line"></i>
+                        </div>
+                        <h3 class="skill-category">Tools</h3>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">Git</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar tools-bar" style="width: 85%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">GitHub</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar tools-bar" style="width: 85%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">VS Code</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar tools-bar" style="width: 90%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Postman</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar tools-bar" style="width: 75%;"></span></div>
+                            </li>
+                            <li>
+                                <span class="skill-name">AWS</span>
+                                <div class="skill-proficiency"><span class="proficiency-bar tools-bar" style="width: 60%;"></span></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Goals Section -->
+        <section class="goals-section section" id="goals">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Currently Learning</h2>
+                <div class="goals-timeline scroll-reveal delay-200">
+                    
+                    <!-- Goal 1 -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <i class="ri-pantone-line timeline-icon"></i>
+                            <h3 class="timeline-title">Advanced Frontend</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <span class="badge">Next.js</span>
+                        </div>
+                    </div>
+
+                    <!-- Goal 2 -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <i class="ri-robot-line timeline-icon"></i>
+                            <h3 class="timeline-title">AI Integration</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <span class="badge">OpenAI API</span>
+                            <span class="badge">Groq API</span>
+                            <span class="badge">AI Chatbot Development</span>
+                        </div>
+                    </div>
+
+                    <!-- Goal 3 -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-header">
+                            <i class="ri-cpu-line timeline-icon"></i>
+                            <h3 class="timeline-title">Backend Architecture</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <span class="badge">Django REST Framework</span>
+                            <span class="badge">FastAPI</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section section" id="projects">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Projects</h2>
+                <div class="projects-grid grid-2 scroll-reveal delay-200">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-container project-slider-container" id="lungcancer-slider">
+                            <div class="project-slides">
+                                <div class="project-slide active">
+                                    <img src="./lungcancer1.jpg" alt="Lung Cancer Detection - Home Page" class="slider-img">
+                                </div>
+                                <div class="project-slide">
+                                    <img src="./lungcancer2.jpg" alt="Lung Cancer Detection - Preprocessing Page" class="slider-img">
+                                </div>
+                                <div class="project-slide">
+                                    <img src="./lungcancer3.jpg" alt="Lung Cancer Detection - Image Comparison Page" class="slider-img">
+                                </div>
+                                <div class="project-slide">
+                                    <img src="./lungcancer4.jpg" alt="Lung Cancer Detection - Model Prediction Page" class="slider-img">
+                                </div>
+                                <div class="project-slide">
+                                    <img src="./lungcancer5.jpg" alt="Lung Cancer Detection - About Details Page" class="slider-img">
+                                </div>
+                            </div>
+                            <!-- Navigation Controls -->
+                            <button class="slider-btn prev-btn" aria-label="Previous Slide">
+                                <i class="ri-arrow-left-s-line"></i>
+                            </button>
+                            <button class="slider-btn next-btn" aria-label="Next Slide">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                            <!-- Pagination Indicators -->
+                            <div class="slider-dots">
+                                <span class="slider-dot active"></span>
+                                <span class="slider-dot"></span>
+                                <span class="slider-dot"></span>
+                                <span class="slider-dot"></span>
+                                <span class="slider-dot"></span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">Lung Cancer Detection Using Image Processing <span class="tech-tag">Team Project</span></h3>
+                            <p class="project-desc">
+                                A college team project that classifies lung CT scans as normal, benign, or malignant. The system takes CT images as input, applies preprocessing (filtering and contrast enhancement), extracts key features like nodule shape and texture, and passes them to a CNN classifier for prediction.
+                            </p>
+                            <p class="project-desc">
+                                <strong>My role:</strong> Collected CT scan image data and performed feature extraction (identifying nodule shape, size, texture, and border characteristics) to prepare data for the classification model.
+                            </p>
+                            <p class="project-highlight">🎯 <strong>Key Highlight:</strong> Contributed to a pipeline that achieved 94.5% classification accuracy on clinical CT scans.</p>
+                            <div class="project-techs">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">ML</span>
+                                <span class="tech-tag">Image Processing</span>
+                            </div>
+                            <div class="project-links">
+                                <span class="project-note">Team project — repository maintained by team lead</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-container project-slider-container" id="coursemgmt-slider">
+                            <div class="project-slides">
+                                <div class="project-slide active">
+                                    <img src="./coursemgmt1.jpg" alt="Course Management System - Login Page" class="slider-img">
+                                </div>
+                                <div class="project-slide">
+                                    <img src="./coursemgmt2.jpg" alt="Course Management System - Course Listing Page" class="slider-img">
+                                </div>
+                                <div class="project-slide">
+                                    <img src="./coursemgmt3.jpg" alt="Course Management System - Course Details Page" class="slider-img">
+                                </div>
+                                <div class="project-slide">
+                                    <img src="./coursemgmt4.jpg" alt="Course Management System - Admin Add Course Form" class="slider-img">
+                                </div>
+                            </div>
+                            <!-- Navigation Controls -->
+                            <button class="slider-btn prev-btn" aria-label="Previous Slide">
+                                <i class="ri-arrow-left-s-line"></i>
+                            </button>
+                            <button class="slider-btn next-btn" aria-label="Next Slide">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                            <!-- Pagination Indicators -->
+                            <div class="slider-dots">
+                                <span class="slider-dot active"></span>
+                                <span class="slider-dot"></span>
+                                <span class="slider-dot"></span>
+                                <span class="slider-dot"></span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">Course Management System – Role-Based Learning Platform</h3>
+                            <p class="project-desc">
+                                A role-based course management web app built during my internship, with separate Admin and User access levels. Admins can add, update, and delete courses in real time, while users can browse courses, view detailed pages, add to cart, and enroll.
+                            </p>
+                            <p class="project-desc">
+                                <strong>My role:</strong> Built the entire frontend using React, Vite, and Tailwind CSS, with Axios handling API communication, JSON Server powering the mock data layer, React Context for state management, and React Router for protected, role-based routing.
+                            </p>
+                            <p class="project-highlight">🎯 <strong>Key Highlight:</strong> Fully functional role-based CRUD system with separate admin and user flows.</p>
+                            <div class="project-techs">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Vite</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">JSON Server</span>
+                                <span class="tech-tag">Axios</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/vmehakre/Course-Management-System" target="_blank" class="btn btn-sm btn-outline">
+                                    <i class="ri-github-line"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 (Placeholder) -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-container project-placeholder-gradient">
+                            <div class="project-img-placeholder">
+                                <i class="ri-code-box-line placeholder-icon"></i>
+                                <span>Upcoming Project</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h3 class="project-title">Next-Gen Full Stack Application</h3>
+                            <p class="project-desc">
+                                An upcoming full-stack development project incorporating advanced backend architectures, responsive interfaces, and modern deployment pipelines.
+                            </p>
+                            <p class="project-highlight">🎯 <strong>Key Highlight:</strong> Coming soon. Focus on system scalability and performance.</p>
+                            <div class="project-techs">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">FastAPI</span>
+                                <span class="tech-tag">Next.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" onclick="return false;" class="btn btn-sm btn-outline disabled">
+                                    <i class="ri-github-line"></i> GitHub
+                                </a>
+                                <a href="#" onclick="return false;" class="btn btn-sm btn-primary disabled">
+                                    <i class="ri-external-link-line"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Contact</h2>
+                <div class="contact-grid grid-2 scroll-reveal delay-200">
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info glass-card">
+                        <h3 class="contact-info-title">Let's Connect</h3>
+                        <p class="contact-info-desc">
+                            I'm open to full-time opportunities, freelance work, and coding collaborations. Get in touch with me directly or use the contact form.
+                        </p>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="ri-map-pin-line"></i></div>
+                                <div class="info-text">
+                                    <span>Location</span>
+                                    <p>Bengaluru, Karnataka</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon"><i class="ri-mail-line"></i></div>
+                                <div class="info-text">
+                                    <span>Email</span>
+                                    <p><a href="mailto:vm373673@gmail.com">vm373673@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <h4>Connect with me:</h4>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/vaishnavi-m-826807305?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn">
+                                    <i class="ri-linkedin-box-fill"></i>
+                                </a>
+                                <a href="https://github.com/vmehakre" target="_blank" aria-label="GitHub">
+                                    <i class="ri-github-fill"></i>
+                                </a>
+                                <a href="https://x.com" target="_blank" aria-label="Twitter">
+                                    <i class="ri-twitter-x-fill"></i>
+                                </a>
+                                <a href="https://www.instagram.com/vaishnaviprabhu60?utm_source=qr&igsh=MXBzejBnYjNpMnRtcw==" target="_blank" aria-label="Instagram">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container glass-card">
+                        <form id="portfolio-contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name" class="form-label">Full Name</label>
+                                <input type="text" id="form-name" class="form-input" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email" class="form-label">Email Address</label>
+                                <input type="email" id="form-email" class="form-input" placeholder="example@domain.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message" class="form-label">Message</label>
+                                <textarea id="form-message" rows="5" class="form-input form-textarea" placeholder="Hi Vaishnavi, I'd like to collaborate..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block form-submit-btn">
+                                <span>Send Message</span> <i class="ri-send-plane-fill"></i>
+                            </button>
+                            <div class="form-feedback" id="contact-form-feedback"></div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Vaishnavi | Built with HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top" id="scroll-up" aria-label="Scroll to Top">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+</body>
+</html>
